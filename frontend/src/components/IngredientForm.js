@@ -6,6 +6,8 @@ import AlternateIngredients from './alternateIngredients';
 import Papa from 'papaparse'; 
 import '../components/index.css';
 
+const API_BASE_URL = "https://dish-nutrient-simplifier.onrender.com";
+
 function IngredientForm() {
   const [ingredients, setIngredients] = useState([
     { name: '', quantity: '', description: '' }
@@ -42,7 +44,7 @@ function IngredientForm() {
 
   const fetchAlternatives = async (ingredientName) => {
     try {
-      const response = await fetch(`http://localhost:5000/api/alternatives/${encodeURIComponent(ingredientName)}`);
+      const response = await fetch(`${API_BASE_URL}/api/alternatives/${encodeURIComponent(ingredientName)}`);
       const data = await response.json();
       setAlternatives(prevState => ({
         ...prevState,
