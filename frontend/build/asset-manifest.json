@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6264a544.css",
+    "main.js": "/static/js/main.cf153a8a.js",
+    "static/media/nutrient_per_100g.csv": "/static/media/nutrient_per_100g.64fe426a58dabd2df29c.csv",
+    "static/media/Background.png": "/static/media/Background.4e817f3010f6e4e3899a.png",
+    "static/media/iiitd.png": "/static/media/iiitd.87a1d554dada091bc7a6.png",
+    "index.html": "/index.html",
+    "main.6264a544.css.map": "/static/css/main.6264a544.css.map",
+    "main.cf153a8a.js.map": "/static/js/main.cf153a8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6264a544.css",
+    "static/js/main.cf153a8a.js"
+  ]
+}

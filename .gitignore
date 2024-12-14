@@ -17,7 +17,7 @@ __pycache__/
 .venv/
 # --- React Frontend ---
 frontend/node_modules/
-frontend/build/
+# frontend/build/
 frontend/.cache/
 frontend/dist/
 frontend/coverage/
