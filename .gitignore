@@ -1,0 +1,65 @@
+# --- General ---
+.DS_Store
+*.log
+*.env
+.env.local
+.env.*.local
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.idea/
+.vscode/
+*.iml
+*.swp
+
+# --- React Frontend ---
+frontend/node_modules/
+frontend/build/
+frontend/.cache/
+frontend/dist/
+frontend/coverage/
+frontend/*.env.local
+frontend/yarn.lock
+frontend/package-lock.json.backup
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# --- Flask Backend ---
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/db.sqlite3
+backend/*.db
+backend/instance/
+
+# --- Python Dependencies ---
+backend/.Python
+backend/pip-log.txt
+backend/pip-delete-this-directory.txt
+backend/__pypackages__/
+
+# --- Virtual Environment ---
+backend/venv/
+backend/.venv/
+backend/env/
+backend/.env/
+backend/env.bak/
+backend/.env.bak/
+
+# --- CSV/Temporary Data ---
+backend/data/*.csv~
+backend/data/tmp/
+
+# --- OS Generated Files ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --- Git ---
+*.orig
