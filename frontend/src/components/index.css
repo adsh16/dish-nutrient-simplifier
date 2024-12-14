@@ -394,3 +394,12 @@ body {
   background: rgb(255, 255, 255);
   background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(182, 216, 195, 1) 51%, rgba(93, 168, 121, 1) 96%, rgba(21, 128, 61, 1) 100%);
 }
+
+
+.footer {
+  background-color: #075e54; /* Matches your bg-teal-700 */
+  padding: 1rem;
+  text-align: center;
+  color: white;
+  position: relative;
+}

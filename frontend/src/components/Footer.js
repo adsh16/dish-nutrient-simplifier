@@ -3,7 +3,7 @@ import iiitd_logo from './iiitd.png';
 
 const Footer = () => {
   return (
-    <div className="bg-teal-700 py-8 px-4 sm:px-6 lg:px-8">
+    <div className="footer bg-teal-700 py-8 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="flex items-center justify-center">
           <img src={iiitd_logo} alt="IIITD Logo" className="h-12 mr-4" />
@@ -19,7 +19,7 @@ const Footer = () => {
             All material on this website is a product of an project and is provided for your information only and may not be construed as medical advice or instruction. No action or inaction should be taken based solely on the contents of this information; instead, readers should consult appropriate health professionals on any matter relating to their health & well-being.
           </p>
           <p>
-            Indraprastha Institute of Information Technology Delhi (IIIT-Delhi) | Akshat, Kanishk and Aditya
+            Indraprastha Institute of Information Technology Delhi (IIIT-Delhi) | Akshat, Kanishk, and Aditya
           </p>
         </div>
       </div>
