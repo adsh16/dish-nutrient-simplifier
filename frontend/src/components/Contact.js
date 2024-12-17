@@ -8,6 +8,7 @@ const Contact = () => {
         
         <div className="bg-white rounded-lg shadow-lg p-6 md:p-8">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {/* Contact Information */}
             <div>
               <h2 className="text-2xl font-semibold mb-4">Akshat, Kanishk, Aditya</h2>
               <p className="text-lg text-blue-600 hover:text-blue-800">
@@ -22,17 +23,22 @@ const Contact = () => {
                 <p>New Delhi, India 110020.</p>
                 <p className="mt-4">
                   <span className="font-semibold">Email: </span>
-                  <a href="mailto:akshat22054@iiitd.ac.in" className="text-blue-600 hover:text-blue-800">
-                  akshat22054@iiitd.ac.in
+                  <a href="mailto:aditya22038@iiitd.ac.in" className="text-blue-600 hover:text-blue-800">
+                    aditya22038@iiitd.ac.in
                   </a>
-                </p>
-                <p>
-                  <span className="font-semibold">Tel: </span>
-                  <span>+91 7011172878 (Personal)</span>
+                  <br />
+                  <a href="mailto:akshat22054@iiitd.ac.in" className="text-blue-600 hover:text-blue-800">
+                    akshat22054@iiitd.ac.in
+                  </a>
+                  <br />
+                  <a href="mailto:kanishk22041@iiitd.ac.in" className="text-blue-600 hover:text-blue-800">
+                    kanishk22233@iiitd.ac.in
+                  </a>
                 </p>
               </div>
             </div>
             
+            {/* Google Maps Embed */}
             <div className="h-[400px] md:h-full">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.8331650642347!2d77.27048531507841!3d28.544333982452396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e564111b3b%3A0x2337f9ae595ad58a!2sIIIT-Delhi!5e0!3m2!1sen!2sin!4v1623456789012!5m2!1sen!2sin"
