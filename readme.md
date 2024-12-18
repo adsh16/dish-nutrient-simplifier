@@ -4,7 +4,7 @@
 
 <h1 align="center">DishIT: A Web-Based Nutritional Analysis Tool</h1>
 
-DishIT is a full-stack web application that simplifies complex nutritional data into actionable insights. By leveraging a robust dataset from the USDA FoodData Central and integrating advanced algorithms, DishIT empowers users to analyze recipes, explore nutrient-dense ingredients, and optimize their dietary choices.  
+DishIT is a full-stack web application that simplifies complex nutritional data into actionable insights. By leveraging a robust dataset from the USDA FoodData Central and integrating advanced algorithms, DishIT empowers users to analyze recipes, explore nutrient-dense ingredients, and optimize their dietary choices. Visit our site using this [link](https://dish-nutrient-simplifier-cn9t.vercel.app)
 
 ## Features
 
@@ -100,11 +100,11 @@ DishIT is a full-stack web application that simplifies complex nutritional data 
 ## Contributors
 
 - **Aditya Sharma**  
-  - Preprocessing, Nutritional Analysis, Flask API Development
+  - Preprocessing, Nutritional Analysis, Flask API Development, Deployment
 - **Akshat Raj Saxena**  
-  - Frontend Development, React Components, Deployment
+  - Frontend Development, React Components, Implementing Algorithmic Logic 
 - **Kanishk Kumar Meena**  
-  - Dataset Management, Algorithm Design, Testing  
+  - Dataset Management, Algorithm Design, Testing, Frontend
 
 ## References
 
