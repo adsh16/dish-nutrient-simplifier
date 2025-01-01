@@ -4,6 +4,21 @@
 
 <h1 align="center">DishIT: A Web-Based Nutritional Analysis Tool</h1>
 
+<p align="center">
+    An awesome project that optimizes the Nutrition Profile!
+    <br />
+    <strong>Explore the docs »</strong>
+    <br />
+    <br />
+    <a href="https://dish-nutrient-simplifier-cn9t.vercel.app/">View Demo</a>
+    ·
+    <a href="https://github.com/adsh16/dish-nutrient-simplifier/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/adsh16/dish-nutrient-simplifier/issues">Request Feature</a>
+    <br />
+</p>
+
+
 DishIT is a full-stack web application that simplifies complex nutritional data into actionable insights. By leveraging a robust dataset from the USDA FoodData Central and integrating advanced algorithms, DishIT empowers users to analyze recipes, explore nutrient-dense ingredients, and optimize their dietary choices. **Visit our site using this [link](https://dish-nutrient-simplifier-cn9t.vercel.app).**
 
 ## Features
